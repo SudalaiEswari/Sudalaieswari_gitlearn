@@ -1,0 +1,2 @@
+Now the file create in github and we commit it , but it not show in vs code so we use git pull in vs code to upload the file in git hub 
+** we already create one file in github , but it not automatically shown in vs code we need to use "git pull"
