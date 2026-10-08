@@ -1,0 +1,30 @@
+Now the file create in github and we commit it , but it not show in vs code so we use git pull in vs code to upload the file in git hub 
+** we already create one file in github , but it not automatically shown in vs code we need to use "git pull"
+
+NOW WE GOING TO CREATE ONE FOLDER IN FILE MANAGER AND THE FOLDER IS NOT GIT FOLDER 
+AND NEXT THERE ARE TWO SUBFOLDER IN MAIN FOLDER 
+NOW THE VS CODE TERMINAL IN 1 ST FOLDER WE WANT TO JUMP FROM FOLDER 1 TO MAIN FOLDER SO WE USE "cd .."  FROM THIS     PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\Sudalaieswari_gitlearn> Sudalaieswari_gitlearn---> SUB FOLDER    TO   PS C:\Users\Admin 2\Desktop\Sudalaieswarigit> Sudalaieswarigit---> MAIN FOLDER 
+
+NOW WE TYPE "cd folder2 " MEAN IT GO INTO FOLDER 2 PS C:\Users\Admin 2\Desktop\Sudalaieswarigit> CD folder2
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\folder2> 
+NOW THE FOLDER2 NOT HAVE GIT SO WE USE ----git init --- to initialize the git in folder 2 
+there are two files in folder 2 we need to add all files in git so we use "git add ."
+and it is added in staging area now we want to commit 
+git commit -m
+now we commit 2 folder 
+
+NEXT WE WANT TO PUSH BUT WE NOT HAVE REPOSITORY IN GITHUB 
+
+WE CREATE ONE REPOSITORY IN GITHUB 
+AND WE USE THIS COMMAND IN VS CODE TERMINAL" git remote add origin https://github.com/SudalaiEswari/Sudalaieswari_gitlearn2.git"
+NOW WE CONNECT THE REPOSITORY AND VS CODE folder.
+
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\folder2> git branch
+* master
+before we use main folder but now we folder2 using  master  branch 
+git push origin master we use this also
+
+and we able to change the master branch to main branch for that we use  "git branch -M main"
+git push origin main now the folder is completely loaded in github repository 
+
+we want to pull mean  use this "git pull origin main"
