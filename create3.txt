@@ -1,0 +1,37 @@
+ git clone https://github.com/SudalaiEswari/Sudalaieswari_gitlearn.git
+Cloning into 'Sudalaieswari_gitlearn'...
+warning: You appear to have cloned an empty repository.
+/*it load the github file in the vscode*/
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit> cd Sudalaieswari_gitlearn
+/*--- Now it shows the create.txt file as untracked file because it doesn't load in github so it is now untracked file *//
+
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\Sudalaieswari_gitlearn> git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        create.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+// now i am going to add create.txt file in github //
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\Sudalaieswari_gitlearn> git add create.txt
+
+// if we type in git status in terminal means it shows as 
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\Sudalaieswari_gitlearn> git status 
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   create.txt
+**** Now the create.txt file is added in github but not commited yet so next we going to commit it***
+
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\Sudalaieswari_gitlearn> git commit -m "create.txt"
+***"create.txt" it is the commit message ***
+//IT ADD FILE TO THE GITHUB //
+
+PS C:\Users\Admin 2\Desktop\Sudalaieswarigit\Sudalaieswari_gitlearn> git push origin main 
